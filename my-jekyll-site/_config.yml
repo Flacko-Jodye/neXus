@@ -1,0 +1,14 @@
+title: My Jekyll Site
+description: A simple Jekyll site hosted on GitHub Pages
+theme: minima
+url: https://yourusername.github.io/my-jekyll-site
+baseurl: ""
+author:
+  name: Your Name
+  email: your.email@example.com
+social:
+  twitter: your_twitter_handle
+  github: your_github_username
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

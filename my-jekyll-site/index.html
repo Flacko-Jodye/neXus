@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Jekyll Site</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    {% include header.html %}
+    <h1>Welcome to My Jekyll Site</h1>
+    <p>This is the homepage of my Jekyll site.</p>
+    <p>Check out my latest blog posts!</p>
+    {% for post in site.posts %}
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+    {% endfor %}
+</body>
+</html>
