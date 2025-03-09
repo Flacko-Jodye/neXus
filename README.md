@@ -1,1 +1,1 @@
-# neXus
+# neXusy
